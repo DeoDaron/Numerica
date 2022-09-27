@@ -1,0 +1,257 @@
+.container {
+    max-width: 960px;
+  }
+  
+  /*
+   * Custom translucent site header
+   */
+  
+  .site-header {
+    background-color: rgba(0, 0, 0, .85);
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+    backdrop-filter: saturate(180%) blur(20px);
+  }
+  .site-header a {
+    color: #8e8e8e;
+    transition: color .15s ease-in-out;
+  }
+  .site-header a:hover {
+    color: #fff;
+    text-decoration: none;
+  }
+   .div1{
+   height: 80px;
+    }
+  
+  .img {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 9px;
+  font-size: 40px;
+  width: 100%;
+  max-width: 800px;
+  padding: 40px;
+  margin-left: %;
+   margin-right: 15%;
+  z-index: 2;
+  border-radius:50px 20px 50px 50px;
+  fill: currentColor;
+   
+  }
+  .para{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align:left;
+    margin-left: 0%;
+    padding-top: 10%;
+    margin-right: 30%;
+  
+  
+  }
+
+  .bgcolo{
+  background-color: cornsilk;
+  border-radius: 25px 25px 25px 25px;
+  width:80%;
+  }
+  
+  .menu{
+   display: grid;
+  font-size: 20px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color:white;
+  align-items: start;
+  justify-content: space-between;
+  text-align:center;
+  margin-left:24%;
+  padding-top:5px;
+   }
+  
+  .he{
+  background-color:#53B4FF;
+   }
+
+  .cercle{
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    background:#53B4FF;
+  }
+  .triangle{
+  width: 0;
+  height:0;
+  border-top: 18px solid transparent;
+  border-bottom:18px solid transparent;
+  border-left:30px solid #53B4FF;
+ 
+  margin-left:15%
+   }
+  
+
+  .para2{
+  
+     
+      text-decoration: none;
+      font-size: 20px;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      text-align:left;
+      margin-left: 9%;
+      color: black;
+  }
+
+
+
+.table2{
+    margin-left: 10%;
+    horizontal-align: -125em;
+}
+
+.text{
+  text-align: left;
+  font-size: 20px;
+
+}
+
+.title2{
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular';
+
+}
+.title{
+  
+  width: 80%;
+  text-decoration: none;
+  font-size: 30px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: blue;
+  
+
+}
+
+  
+  /*
+   * Dummy devices (replace them with your own or something else entirely!)
+   */
+  
+  .product-device {
+    position: absolute;
+    right: 10%;
+    bottom: -30%;
+    width: 300px;
+    height: 540px;
+    background-color: #333;
+    border-radius: 21px;
+    transform: rotate(30deg);
+  }
+  
+  .product-device::before {
+    position: absolute;
+    top: 10%;
+    right: 10px;
+    bottom: 10%;
+    left: 10px;
+    content: "";
+    background-color: rgba(255, 255, 255, .1);
+    border-radius: 5px;
+  }
+  
+  .product-device-2 {
+    top: -25%;
+    right: auto;
+    bottom: 0;
+    left: 5%;
+    background-color: #e5e5e5;
+  }
+  
+  
+  /*
+   * Extra utilities
+   */
+  
+  .flex-equal > * {
+    flex: 1;
+  }
+  @media (min-width: 768px) {
+    .flex-md-equal > * {
+      flex: 1;
+    }
+  }
+  
+  .so{
+  font-size:17px;
+   }
+  
+  .social{
+  display: grid;
+  width: 525px;
+  grid-template-columns: 120px 120px 120px 120px;
+  align-items: start;
+  justify-content: space-between;
+  text-align:center;
+  margin-left:24%;
+  
+
+
+   }
+   
+   .social :first-child {
+    align-self:;
+}
+  
+  .icon{
+  background-color:#53B4FF;
+ 
+  
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 9px;
+  font-size: 16px;
+  
+  width: 100%;
+  max-width: 330px;
+  padding: 20px;
+  margin: 0 auto;
+  z-index: 2;
+  border-radius:50px 20px 50px 50px;
+  
+  horizontal-align: -125em;
+  fill: currentColor;
+   }
+   
+   
+    .ico{
+  background-color:#53B4FF;
+ 
+  
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 9px;
+  font-size: 40px;
+  
+  width: 100%;
+  max-width: 800px;
+  padding: 20px;
+  margin: 0 auto;
+  z-index: 2;
+  border-radius:50px 20px 50px 50px;
+  
+  horizontal-align: -125em;
+  fill: currentColor;
+   }
+   
+   
+   
+   
+   
+   
+   .body{
+   background-color:#FEFDFF;
+    }
+   
+  
